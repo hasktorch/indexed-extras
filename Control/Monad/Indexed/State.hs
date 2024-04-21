@@ -30,6 +30,8 @@ import Control.Monad.Writer
 import Control.Monad.Reader
 import Control.Monad.Cont
 import Control.Monad.Error.Class
+import Control.Monad.Fix
+import Control.Monad
 
 class IxMonad m => IxMonadState m where
   iget :: m i i i
